@@ -1,0 +1,209 @@
+/****** Portfolio Site *******/
+
+
+/****** Base Styles ******/
+
+body    {
+    font-family: 'Raleway', sans serif;
+    color:#000000;
+}
+
+/******* Grid *******/
+.full-width {
+    width: auto;
+    margin:0; 
+}
+ .half-width    {
+     width: 50%;
+     float:left;
+ }
+ .third-width   {
+    float:left;
+    width: 33%; 
+ }
+
+/******* Header *******/
+
+header{
+    background-image:url(../img/header.jpg);
+    background-size: cover;
+    height: 625px;
+    margin-top: -40px;
+}
+ header h3{
+     color:#000000;
+     font-weight: 700;
+     font-size:30px;
+     padding-left:50px;
+     padding-top: 25px;
+     margin-bottom: auto;
+ }
+ #first-name    {
+     color:#9b1f1d;
+ }
+ nav{
+     float:right;
+     text-align:right;
+     width: 500px;
+ }
+nav ul li{
+    display: inline-block;
+    padding-top: 50px;
+}
+nav ul li a{
+    color:#9b1f1d;
+    font-size: 20px;
+    padding-right: 50px;
+    text-decoration:none;
+    text-transform: uppercase;
+}
+#hello {
+     color:#9b1f1d;
+ }
+header h1{
+    clear:both;
+    font-family: 'Roboto Slab', serif;
+    font-size: 60px;
+    font-weight: 700;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+/******* About *******/
+
+#about  {
+    padding: 50px 300px 50px 300px;
+    background:rgba(186, 184, 185, 0.4); 
+    border-top:2px solid #9b1f1d;
+}
+#about h2{
+    color: #9b1f1d;
+    font-size: 50px;
+    font-variant:small-caps;
+}
+#about p{
+    font-family: 'Roboto Slab', serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+/******* Work *******/
+
+#work   {
+    text-align:center;
+    border-top:2px solid #9b1f1d;
+}
+#html, #css, #responsive  {
+    padding-top:50px;
+    padding-bottom:50px;
+}
+#work .full-width{
+    padding:115px 0;
+}
+#work img  {
+     padding-bottom:30px;
+     padding-top: 30px;
+ }
+#work h3{
+    color:#9b1f1d;
+    font-size: 36px;
+    margin: auto;
+    width: 300px;
+}
+#work  p{
+    font-family: 'Roboto', serif;
+    font-size: 25px;
+    line-height: 40px;
+    margin:auto;
+    width: 400px;
+}
+
+/******* Footer *******/
+
+#contact   {
+    background:rgba(186, 184, 185, 0.75);
+    border-top:2px solid #9b1f1d;
+    clear:both;
+    text-align: center;
+}
+#contact-image, #contact-info   {
+    padding-top: 25px;
+}
+#contact-image img{
+    border:2px solid black;
+    margin:50px 30px 30px auto;
+}
+#contact-info   {
+    padding-top:30px;
+    text-align: left;
+}
+#contact-info h2{
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+}
+#contact-info h3 {
+    font-size: 30px;
+    font-weight: lighter; 
+}
+#contact-info a{
+    color:#9b1f1d;
+    font-size: 30px;
+    text-decoration:none;
+}
+#contact-info ul{
+    list-style:none;
+    list-style-position: inside;
+    padding-left:0px;
+    padding-top:70px;
+}
+#contact-info ul li{
+    display:inline-block;
+    padding-right: 85px;
+}
+#contact-info ul li img{
+    border:1.5px solid black;
+}
+#copyright {
+    clear:both;
+    font-size:20px;
+    padding:10px;
+    text-align:center;
+}
+
+/******* PORTFOLIO PAGE STYLES *******/
+
+#portfolio-tag h1 span{
+    color:#9b1f1d;
+}
+#portfolio-main {
+    background:rgba(186, 184, 185, 0.4); 
+    border-top:2px solid #9b1f1d;
+    padding: 20px 300px 20px 300px;
+    
+}
+#portfolio-main h2  {
+    color:#9b1f1d;
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    font-weight:700;
+    text-align: left;
+    margin:15px auto;
+    text-align:center;
+    width:50%;
+}
+#portfolio-main img{
+    border:2px solid #9b1f1d;
+    display: block;
+    margin: 20px auto 70px auto;
+    width: 50%; 
+}
+
+#portfolio-main p{
+    font-family: 'Roboto slab', serif;
+    font-size: 20px;
+    font-weight:300;
+    line-height: 30px;
+    margin:40px auto 0 auto;
+    width:50%;
+}
